@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1037228861998",
+    "project_id": "mers-740f9",
+    "storage_bucket": "mers-740f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037228861998:android:ed3ae290dcf2fb9db28dbf",
+        "android_client_info": {
+          "package_name": "com.example.mers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037228861998-mlmgp2vcagh23b1a33ivd7qhs4ubnjgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaNamVi9bikaSTJPF8N1YRIcVOFOlkLnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037228861998-mlmgp2vcagh23b1a33ivd7qhs4ubnjgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
