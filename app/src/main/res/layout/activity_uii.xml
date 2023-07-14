@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UII"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="200dp"
+        android:background="@color/gold3">
+<ImageView
+    android:id="@+id/logo1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/slogo"
+    android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naisha Chege"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:layout_toRightOf="@+id/logo1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naisha Chege"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:layout_toRightOf="@+id/logo1"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/fullname"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/merslogo"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
